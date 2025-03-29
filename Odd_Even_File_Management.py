@@ -25,10 +25,8 @@ for i in l:
     if int(i)>1:
         for j in range(2,int(i)):
             if int(i)%j==0:
-                # print(i," is not a prime number.")
                 break
         else:
-            # prime.write(int(i),",")
             prime.write(f"{i} ,")
 
 data.close()
